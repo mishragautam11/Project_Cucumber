@@ -1,0 +1,17 @@
+package TestRunner;
+
+
+import io.cucumber.junit.Cucumber;
+import io.cucumber.junit.CucumberOptions;
+import org.junit.runner.RunWith;
+
+@RunWith(Cucumber.class)
+@CucumberOptions(
+
+        features = "C:\\Users\\Dell\\Desktop\\IdeaProjects\\My_Cucumber\\Feature_Tags\\Tags.feature",
+        glue = "StepDefinations",
+        tags = "@Smoke or @Sanity"
+)
+
+public class Tags_Runner {
+}
